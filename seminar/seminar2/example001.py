@@ -29,3 +29,7 @@ print(f'Стоймость равна {int(value)} р. {round((value - int(value
 
 print(value)
 print(len(myinput))
+
+x = input("Введите текст: ")
+length = len(x)*60
+print(f'{length//100} руб. {length%100} коп.')
