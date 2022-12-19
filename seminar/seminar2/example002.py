@@ -33,3 +33,7 @@ for i in range(len(text)):
 print(count)
 
 print(int(text.count(' ') + 1))
+
+
+x = input("Введите текст: ")
+print(f'количество слов: {len(x.split())}')
