@@ -32,10 +32,19 @@
 # Sample Output 3:
 # 31
 
-string1 = "ОРРРРРОРОРООРРРО"
-find1 = ""
-while string1.count(find1) > 0:
-    count = len(find1)
-    find1+="Р"
+# string1 = "ОРРРРРОРОРООРРРО"
+# find1 = ""
+# while string1.count(find1) > 0:
+#     count = len(find1)
+#     find1+="Р"
 
-print(count)
+# print(count)
+
+s=input()
+t=0
+while "Р"*(t+1) in s:
+    t+=1
+if t!=0:
+    print(t)
+else:
+    print(0)
